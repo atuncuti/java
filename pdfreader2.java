@@ -15,8 +15,8 @@ public class pdfreader2 {
 			int i = 0;
 			int k= 0;
 			//String invoice = "Invoice Number:";
-			String filefolder = "C:/Documents and Settings/vvishwanathan/Desktop/Velocity Historic PDFs Originals/";
-			//String filefolder2 = "C:/Documents and Settings/vvishwanathan/Desktop/pdfs_rename/";
+			String filefolder = "source";
+			//String filefolder2 = "target";
 			File folder = new File(filefolder);
 			File[] listOfFiles = folder.listFiles();
 
